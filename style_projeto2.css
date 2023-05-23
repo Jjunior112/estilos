@@ -104,24 +104,24 @@ body.modo-escuro .nav-bar{
 }
 .imgtop{
     position: absolute;
-    background-image: url(imagens/img4.jpg);
+    background-image: url(https://jjunior112.github.io/imagens/foto4.jpg);
     min-height: 600px;
 }
 .img1{
-    background-image: url(imagens/foto1.jpg);
+    background-image: url(https://jjunior112.github.io/imagens/foto1.jpg);
     min-height: 500px;
 }
 .img2{
-    background-image: url(imagens/foto2.jpg);
+    background-image: url(https://jjunior112.github.io/imagens/foto2.jpg);
     min-height: 500px;
 }
 .img3{
-    background-image: url(imagens/foto3.jpg);
+    background-image: url(https://jjunior112.github.io/imagens/foto3.jpg);
     min-height: 500px;
 }
 
 .img4{
-    background-image: url(imagens/img4.jpg);
+    background-image: url(https://jjunior112.github.io/imagens/foto4.jpg);
     min-height: 500px;
 }
 .imgtop,.img1,.img2,.img3,.img4{
