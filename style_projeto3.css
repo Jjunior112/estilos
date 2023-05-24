@@ -415,10 +415,14 @@ p{
 
 }
 @media (width <= 490px){
-
+    body,body.dark-theme{
+        width: 100%;
+        overflow-x: hidden;
+    }
     body.dark-theme>header,header{
         font-size: x-large;
         height: 100px;
+ 
 
     }
 
@@ -446,9 +450,14 @@ p{
 
 }
 @media (width<=350px){
+    body,body.dark-theme{
+        width: 100%;
+        overflow-x: hidden;
+    }
     body.dark-theme>header,header{
-        font-size: 18pt;
+        font-size: 15pt;
         height: 80px;
+        overflow-x: hidden;
     
     }
     .imga{
