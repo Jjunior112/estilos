@@ -1,343 +1,83 @@
-:root{
-    --cor1:#1501E1;
-    --cor6: white;
-    --cor7:black;
-    --cor8: #999999;
-    --cor9:#4D3636;
-
-}
-
 body{
-    color: var(--cor7);
-    --nav: #737B80;
-    --sectionLight: #B3AD7D;
-    --sectionDark: #737B80;
-}
-body.modo-escuro{
-    background-color: var(--cor8);
-    color:var(--cor6);
-    --nav:  #4D4D4D;
-    --sectionLight: #4D806B;
-    --sectionDark: #4D4D4D;
-}
-body.modo-escuro>header{
-    background-color:var(--cor9) ;
-}
-#barra-cookie {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    padding: 10px;
-    background-color: #f1f1f1;
-    text-align: center;
-}
-  
-#btn-cookie {
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-}
-a{
-    text-decoration: none;
-    color: var(--cor7);
-    padding-left: 5px;
-}
-a:hover{
-    color: var(--sectionDark);
-}
-em{
-   color: var(--cor1);
-}
-em:hover{
-    color: var(--cor9);
-}
-.nav-bar{
-    background-color: var(--nav);
-    padding: 15px;
-    min-width: 97.6%;
-    transition: 0.2s ease-in-out;
-
-}
-.nav-bar a{
-    text-decoration: none;
-    color: var(--cor7);
-    padding: 15px;
-}
-.nav-bar a:hover{
-    color: var(--sectionLight);
-    background-color: var(--sectionDark);
-}
-.hamburger{
-    display: none;
-    transition: 0.1s ease-in-out;
-}
-.logo{
-    width: 70px;
-    height: 15px;
-    margin: 0 10px;
-    
-}
-.botao-tema{
-    width: 25px;
-    height: 25px;
-    margin-left: 50%;
-    position: absolute;
-}
-.botao-tema:hover{
-    cursor: pointer;
-    
-}
-body.modo-escuro .nav-bar{
-    background-color: var(--nav);
-}
-
-.section-dark{
-    background-color: var(--sectionDark);
-    color: var(--cor6);
-}
-.section-light{
-    background-color: var(--sectionLight);
-    color: var(--cor7);
-}
-.imgtop{
-    position: absolute;
-    background-image: url(https://jjunior112.github.io/imagens/foto4.jpg);
-    min-height: 600px;
-}
-.img1{
-    background-image: url(https://jjunior112.github.io/imagens/foto1.jpg);
-    min-height: 500px;
-}
-.img2{
-    background-image: url(https://jjunior112.github.io/imagens/foto2.jpg);
-    min-height: 500px;
-}
-.img3{
-    background-image: url(https://jjunior112.github.io/imagens/foto3.jpg);
-    min-height: 500px;
-}
-
-.img4{
-    background-image: url(https://jjunior112.github.io/imagens/foto4.jpg);
-    min-height: 500px;
-}
-.imgtop,.img1,.img2,.img3,.img4{
-    position: relative;
-    opacity: 0.76;
-    background-position: center;
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-image: url(https://jjunior112.github.io/imagens/fundo_projeto2.jpg);
     background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+}
+header{
+    text-align: center;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-#produto{
-    text-align: center;
-    justify-content: space-between;
+main{
+    margin: 0 auto;
+    margin-bottom: 3em;
+    color: white;
+    padding: 25px;
+    border-radius: 25px;
+    background-color: #054798;
+    width: 70%;
 }
-#solucoes{
-    text-align: center;
-    padding-top: 50px;
-}
-#clientes{
-    text-align: center;
-    justify-content: space-between;
-}
-.todosClientes{
-    display: flex;
-    text-align: center;
-}
-.clientes{
-    width: 300px;
-    border: 1px groove var(--sectionLight);
-    margin: 10px;
-    padding: 10px;
-}
-.logoClientes{
-    width: 100px;
-}
-#precos{
-    text-align: center;
-    justify-content: space-around;
-}
-#contato{
-    text-align: center;
-    padding: 10px;
-}
-#codigo{
-    width: 25px;
-}
-#telefone{
-    width: 175px;
-}
-#mensagem{
-    height: 50px;
-}
-.telefone{
-    display: flex;
-}
-#checkbox{
-    display: flex;
-    width: 400px;
-}
-.enviar{
-    display: none;
-    font-size: 10pt;
-    color:red
-}
+
 form{
-    padding: 10px;
-    margin:0 auto;
-    row-gap:10px;
-    width: 200px;
-    text-align: center;
+    margin: 0 auto;
+    width: 80%;
+    padding: 1em;
+}
+form input,select{
+    border-radius: 5px;
+    height: 35px;
+    background-color: whitesmoke;
+}
+form textarea{
+    border-radius: 5px;
+    width: 100%;
+}
+.input-area{
+    width: 100%;
+}
+.recomendacao{
     display: flex;
-    flex-direction: column;
+    align-items: center;
+}
+.recomendacao  label{
+    margin-left: .5em;
+    align-items: center;
+}
+#submit{
+    background-color: #04ca18;
+    color: #414040;
+    font-weight: bolder;
+    margin-top: 1em;
+    border-radius: 15px;
+    transition: .5s;
+}
+#submit:hover{
+    cursor: pointer;
+    background-color: #22ff38;
+    color :#000;
+    transform: scale(1.01);
+    box-shadow: 1px 1px 1px 1px  #000;
 
 }
-footer{
-    background-color: var(--sectionLight);
-    min-width: 100%;
-    height: 70px;
-    text-align: center;
-}
-footer p{
-    font-size: smaller;
-}
-.redes{
-    width: 25px;
-    height: 25px;
-    padding: 10px 15px;
+
+::selection{
+    background-color: #c03333;
 }
 ::-webkit-scrollbar{
     width: 12px;
-    background: transparent;
+    background-color: #7d1a1a;
 }
-::-webkit-scrollbar-track{
-    background-color: var(--sectionDark);
-    opacity: 0.1;
-}
+
 ::-webkit-scrollbar-thumb{
-    background-color: var(--sectionLight);
-    border-radius: 10px;
-    border: 3px solid var(--sectionDark);
+    background-color: #054798;
+    border-radius: 5px;
 }
 
-@media (width<= 1200px){
-
-    
-    .nav-bar{
-        min-width: 95.6%;
+@media (width<800px){
+    main{
+        width: 80%;
     }
-    
-    .botao-tema{
-        width: 15px;
-        height: 15px;
-        margin-left: 6%;
-        position: absolute;
-    }
-
 }
-@media (width<= 690px){
-
-    
-    .nav-bar{
-        padding: 1px;
-        min-width: 95.6%;
-    }
-    .nav-bar a{
-        text-decoration: none;
-        color: var(--cor7);
-        padding: 1px;
-    }
-    .botao-tema{
-        width: 15px;
-        height: 15px;
-        margin-left: 6%;
-    }
-
-}
-
-/* Aqui será o nav-bar reclusivo */
-
-@media (width<= 669px){
-    *{
-        overflow-x: hidden;
-    }
-    .nav-bar{
-        display: none;
-    }
-   
-    .active{
-        background-color: var(--nav);
-        padding: 10px;
-        min-width: 90.6%;
-        transition: 0.8s ease-in-out;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    .active>a{
-        text-decoration: none;
-        color: var(--cor7);
-        padding: 4px;
-    }
-    .botao-tema{
-        width: 15px;
-        height: 15px;
-        margin-left: 90%;
-        position: absolute;
-    }
-    .hamburger{
-        display:flex;
-        flex-direction: column;
-        background-color: var(--sectionDark);
-        transition: 0.8s ease-in-out;
-    }
-    .hamburger:hover{
-        cursor: pointer;
-    }
-    .hamburgerFooter{
-        display:none;
-    }
-    .line1, .line2, .line3{
-        width: 20px;
-        height: 5px;
-        background-color: var(--sectionLight);
-        margin: 1px;
-        border-radius: 15px;
-
-    }
-    .todosClientes{
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-    }
-    .clientes{
-        width: 190px;
-        margin: 1px;
-        padding: 3px;
-    }
-    .logoClientes{
-        width: 100px;
-    }
-    ::-webkit-scrollbar{
-        width: 1px;
-        background: transparent;
-    }
-    ::-webkit-scrollbar-track{
-        background-color: #f1e9e9;
-        opacity: 0.1;
-    }
-    ::-webkit-scrollbar-thumb{
-        background-color: #582965;
-        border-radius: 10px;
-        border: 3px solid #ffffff;
-    }
-    
-
-
-}
-
