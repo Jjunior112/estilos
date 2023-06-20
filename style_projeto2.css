@@ -46,6 +46,17 @@ form textarea{
     margin-left: .5em;
     align-items: center;
 }
+.lgpd{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    text-align: start;
+    
+}
+.lgpd label{
+    margin-left: 5px;
+}
+
 #submit{
     background-color: #04ca18;
     color: #414040;
@@ -61,6 +72,16 @@ form textarea{
     transform: scale(1.01);
     box-shadow: 1px 1px 1px 1px  #000;
 
+}
+.showMessage{
+    display: none;
+}
+#messageSuccess{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #22ff38;
+    color: #000000;
 }
 
 ::selection{
