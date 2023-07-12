@@ -1,0 +1,44 @@
+body {
+    background-color: #4D4D4D;
+}
+
+nav {
+    background-color: #999999;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: .5em;
+
+}
+
+.logo img {
+    width: 80px;
+}
+
+section {
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 2em;
+    color: #fff;
+}
+
+section h1 {
+    text-align: center;
+    color: black;
+}
+
+section p {
+    text-align: start;
+}
+
+#text {
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 5em;
+
+}
+
+.result {
+    margin-top: 1em;
+    margin-bottom: 5em;
+}
